@@ -1,0 +1,722 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/huloex-logo.png" type="image/icon"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <link href="./font-awesome/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+    <title>HuLoEx</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!-- NoteBefore: the term "cta" was used in most styling to denote call to action btn -->
+    <!-- starting with mobile first principle -->
+   <div class="site-wrapper">
+    <div class="header-wrapper index">
+    <header class="site-header index-header">
+    <input type="checkbox" id="toggle-action" class="nav-header-input"/>
+    <div class="mobile-header-flex">
+    <div class="flex-left">
+        <div class="img-container">
+           <a href="./index.html"><img src="./images/huloex-logo-img.svg" alt="logo image"/></a>
+        </div>
+       <h1 class="site-header-logo"><a href="./index.html">HuloEx</a></h1>
+    </div>
+      <div class="flex-right">
+        <label for="toggle-action" class="toggle-bars"></label>
+       </div>
+    </div>
+    <nav class="nav-main-menu">
+        <ul>
+           <ul class="nav-ul">
+                 <li class="main-list-item"><a href="./market.html">Market</a></li>
+                 <li class="main-list-item"><a href="./earn.html">Earn</a></li>
+                 <li class="main-list-item dropdown"><a href="#"> Trades <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                    <!-- this is a second layer of navigation  -->
+                    <ul class="dropdown-menu">
+                        <li class="nested-list-item flex">
+                            <div class="img-container">
+                             <img src="./images/spot-trading.svg " alt="spot trading icon"/>
+                            </div>
+                            <a href="./dashboard.html">Spot Trading</a>
+                        </li>
+                        <li class="nested-list-item flex">
+                             <div class="img-container">
+                                <img src="./images/debit-card-icon.svg" alt="contract icon"/>
+                             </div>
+                            <a href="./dashboard.html">Contract Trading</a>
+                        </li>
+                    </ul>
+                </li>
+                 <li class="main-list-item"><a href="./buycrypto.html">Buy Crypto</a></li>
+                 <li class="main-list-item dropdown"><a href="#"> Finance  <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                    <!--this is a second layer of navigation -->
+                    <ul class="dropdown-menu">
+                      <li class="nested-list-item flex">
+                        <div class="img-container">
+                            <img src="./images/debit-card-icon.svg" alt="contract icon"/>
+                         </div>
+                        <a href="./debitcard.html">HuloEx Debit card</a>
+                    </li>  
+                      <li class="nested-list-item flex">
+                        <div class="img-container">
+                            <img src="./images/debit-card-icon.svg" alt="contract icon"/>
+                         </div>
+                        <a href="./cryptoloan.html">HuloEx Crypto Loan</a>
+                    </li>  
+                    </ul>
+                </li>
+                 <li class="main-list-item"><a href="#">Language</a></li>
+                 <li class="main-list-item"><a href="./login.html">Log In</a></li>
+                 <li class="main-list-item"><a class="cta-btn" href="./signup.html">Register</a></li>
+              </ul>
+        </ul>
+       </nav>
+    </header>
+    <!--
+    /******************
+    header-intro
+  *******************
+  /-->
+     <section class="intro-text header-intro">
+        <div class="flex">
+          <div class="left">
+            <p>The <strong class="capslock">future </strong> of <strong class="capslock">money</strong> is <strong class="capslock"> digital </strong>
+            </p>
+            <p>buy, sell , trade &amp; lend
+            cryptocurrencies.
+            </p>
+            <a class="get-started-cta" href="./signup.html" >Get Started</a>
+        </div>
+        <div class="right">
+        <div class="img-container">
+        <img src="./images/two-right-phones.png">
+        </div>
+        </div>
+      </div>
+     </section>
+ </div>
+
+    <!-- site main body -->
+    <main class="site-body index-main">
+     
+    <!-- main index page  section-->
+    <section class="marquee-section">
+      <div class="marquee">
+      <marquee class="marquee-text">
+        <p> <span class="rectbox"></span> Distribution of Free HuloEX Token for deposits of up to &dollar;5,000 <span class="rectbox"></span> Hulo Exchange Token will be launched on Q4 of 2023 at &dollar;0.4 per token <span class="rectbox"></span> Compete with our Merchants who want to be Country Representatives of HuluEx with institution deposit balance of &dollar;10,000 to &dollar;35,000. <span class="rectbox"></span> Engage in contract trading to win more HuluEx tokens</p>
+      </marquee>
+    </div>
+    </section>
+
+
+     <section class="section-2">
+        <!-- round corner button -->
+        <span class="round-corner-btn left"></span>
+        <div class="deposit-cards-wrapper carousel owl-carousel">
+        <div class="deposit-card-container">
+            <div class="deposit-card">
+             <img src="./images/lets-begin.png" alt="lets begin">
+            </div>
+        </div>
+        <div class="deposit-card-container">
+            <div class="deposit-card">
+             <img src="./images/huloex-token.png" alt="huloex token">
+            </div>
+        </div>
+        <div class="deposit-card-container">
+            <div class="deposit-card">
+             <img src="./images/get-paid.png" alt="get paid">
+            </div>
+        </div>
+        <div class="deposit-card-container">
+            <div class="deposit-card">
+              <img src="./images/q3.png" alt="q3">
+            </div>
+        </div>
+        </div>
+        <!-- round corner button -->
+        <span class="round-corner-btn right"></span>
+     </section>
+
+     <!-- main index page section  || no code for now-->
+    <section class="section-3 trade-chart">
+    <table class="tabular-data">
+      <thead>
+        <tr class="trade-data-row">
+          <th class="table-head">name</th>
+          <th class="table-head">last price</th>
+          <th class="table-head">change 24H</th>
+          <th class="table-head">volume 24H</th>
+          <th class="table-head">low 24H</th>
+          <th class="table-head">high 24H</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- first row -->
+        <tr class="trade-data-row">
+          <td class="table-data">
+            <div class="cryptocurrency-pairs currency-symbol">
+              <div class="image-continer first-symbol">
+                <img src="./images/BTC.png">
+              </div>
+              <div class="image-continer second-symbol">
+                <img src="./images/USDT.png">
+              </div>
+              <span class="currency-symbol">BTC / USDT</span>
+            </div>
+          </td>
+          <td class="table-data">
+            <div class="updated-table-data table-dynamic-text-green">
+             <span class="table-dynamic-text">25,502.17</span>
+            </div>
+            <span class="table-static-text">&dollar;25,489.29</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text table-static-text-green">+4.18%</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">&dollar;29,949,275.69</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">25,281.37</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">26,471.55</span>
+          </td>
+        </tr>
+
+        <!-- second row -->
+        <tr class="trade-data-row">
+          <td class="table-data">
+            <div class="cryptocurrency-pairs currency-symbol">
+              <div class="image-continer first-symbol">
+                <img src="./images/ETH.png">
+              </div>
+              <div class="image-continer second-symbol">
+                <img src="./images/USDT.png">
+              </div>
+              <span class="currency-symbol">ETH / USDT</span>
+            </div>
+          </td>
+          <td class="table-data">
+            <div class="updated-table-data table-dynamic-text-green">
+             <span class="table-dynamic-text">1,847.61</span>
+            </div>
+            <span class="table-static-text">&dollar;1,846.67</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text table-static-text-green">+7.48%</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">&dollar;11,369,513.07</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">1,799.65</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">1,887.52</span>
+          </td>
+        </tr>
+
+        <!-- third row -->
+        <tr class="trade-data-row">
+          <td class="table-data">
+            <div class="cryptocurrency-pairs currency-symbol">
+              <div class="image-continer first-symbol">
+                <img src="./images/MATIC.png">
+              </div>
+              <div class="image-continer second-symbol">
+                <img src="./images/USDT.png">
+              </div>
+              <span class="currency-symbol">MATIC / USDT</span>
+            </div>
+          </td>
+          <td class="table-data">
+            <div class="updated-table-data table-dynamic-text-green">
+             <span class="table-dynamic-text">1.026</span>
+            </div>
+            <span class="table-static-text">&dollar;1.02</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text table-static-text-green">+6.56%</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">&dollar;1,328,575.68</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">0.989</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">1.096</span>
+          </td>
+        </tr>
+
+        <!--fourth row -->
+        <tr class="trade-data-row">
+          <td class="table-data">
+            <div class="cryptocurrency-pairs currency-symbol">
+              <div class="image-continer first-symbol">
+                <img src="./images/BTC.png">
+              </div>
+              <div class="image-continer second-symbol">
+                <img src="./images/USDC.png">
+              </div>
+              <span class="currency-symbol">BTC / USDC</span>
+            </div>
+          </td>
+          <td class="table-data">
+            <div class="updated-table-data table-dynamic-text-red">
+             <span class="table-dynamic-text">23,872.26</span>
+            </div>
+            <span class="table-static-text">&dollar;25,433.07</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text table-static-text-red">-2.13%</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">&dollar;1,209,561.29</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">23,388</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">24,416.04</span>
+          </td>
+        </tr>
+
+        <!-- fifth row -->
+        <tr class="trade-data-row">
+          <td class="table-data">
+            <div class="cryptocurrency-pairs currency-symbol">
+              <div class="image-continer first-symbol">
+                <img src="./images/ETH.png">
+              </div>
+              <div class="image-continer second-symbol">
+                <img src="./images/BTC.png">
+              </div>
+              <span class="currency-symbol">ETH / BTC</span>
+            </div>
+          </td>
+          <td class="table-data">
+            <div class="updated-table-data table-dynamic-text-green">
+             <span class="table-dynamic-text">0.07198</span>
+            </div>
+            <span class="table-static-text">&dollar;1,695.21</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text table-static-text-green">+2.56%</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">&dollar;1,159,425.58</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">0.070058</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">0.072806</span>
+          </td>
+        </tr>
+
+        <!-- sixth row -->
+        <tr class="trade-data-row">
+          <td class="table-data">
+            <div class="cryptocurrency-pairs currency-symbol">
+              <div class="image-continer first-symbol">
+                <img src="./images/XRP.png">
+              </div>
+              <div class="image-continer second-symbol">
+                <img src="./images/USDT.png">
+              </div>
+              <span class="currency-symbol">XRP / USDT</span>
+            </div>
+          </td>
+          <td class="table-data">
+            <div class="updated-table-data table-dynamic-text-green">
+             <span class="table-dynamic-text">0.4243</span>
+            </div>
+            <span class="table-static-text">&dollar;0.42</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text table-static-text-green">+6.13%</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">&dollar;1,022,255.19</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">0.411</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">0.429</span>
+          </td>
+        </tr>
+
+        <!-- sixth row -->
+        <tr class="trade-data-row">
+          <td class="table-data">
+            <div class="cryptocurrency-pairs currency-symbol">
+              <div class="image-continer first-symbol">
+                <img src="./images/SHIB.png">
+              </div>
+              <div class="image-continer second-symbol">
+                <img src="./images/USDT.png">
+              </div>
+              <span class="currency-symbol">SHIB / USDT</span>
+            </div>
+          </td>
+          <td class="table-data">
+            <div class="updated-table-data table-dynamic-text-green">
+             <span class="table-dynamic-text">0.09464</span>
+            </div>
+            <span class="table-static-text">&dollar;0.09</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text table-static-text-green">+9.25%</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">&dollar;738,132.17</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">0.08782</span>
+          </td>
+          <td class="table-data">
+            <span class="table-static-text">0.10271</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="goto-market">
+      <a href="./market.html" style="text-align:center;font-size:0.822rem;text-transform:capitalize;display:block;color:#000;margin-top:1.4rem;border-bottom:1px solid #ddd;font-weight:600;padding-bottom:1.4rem">show all market</a>
+    </div>
+  </section>
+
+
+
+    <section class="section-4">
+        <a class="getstarted-cta" href="./login.html">get started</a>
+        <div class="chase-icon-container flex">
+         <div class="chase-item">
+            <div class="img-container">
+              <img src="./images/chase-icon-1.svg"/>
+            </div>
+            <h3>Register</h3>
+            <p>Create Your Account on Our Exchange In a few simple clicks</p>
+         </div>
+
+         <div class="chase-item">
+            <div class="img-container">
+              <img src="./images/chase-icon-2.svg"/>
+            </div>
+            <h3>Verify</h3>
+            <p>Verify your identity with one of our trusted
+                verification partners
+            </p>
+         </div>
+
+         <div class="chase-item">
+            <div class="img-container">
+              <img src="./images/chase-icon-3.svg"/>
+            </div>
+            <h3>Deposit</h3>
+            <p>Securely connect your bank account to deposit funds</p>
+         </div>
+
+         <div class="chase-item">
+            <div class="img-container">
+              <img src="./images/chase-icon-4.svg"/>
+            </div>
+            <h3>Trade</h3>
+            <p>Buy Sell and Swap Digital Assets 24/7</p>
+         </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="section-5 exchange-converter">
+        <div class="flex">
+         <div class="btc-eth">
+            <h4>
+            <a href="#">converter </a>
+            <a href="#">exchange </a>
+            </h4>
+            <div class="btn-row">
+                <input type="number" name="number">
+                <label>BTC<span class="fa fa-angle-down"></span></label>
+            </div>
+            <div class="btc-division-line">
+                <span class="right"></span>
+                <span class="left"></span>
+            </div>
+            
+            <div class="btn-row">
+                <input type="number" name="number">
+                <label>ETH<span class="fa fa-angle-down"></span></label>
+            </div>
+            <button class="convert-cta">convert</button>
+         </div>
+         <div>
+            <div class="img-container">
+                <img src="./images/desktop-right.svg">
+            </div>
+         </div>
+        </div>
+
+    </section>
+
+
+
+   <section class="tradeview">
+     <div class=" correctwidth">
+            <div class="row text-center" style="margin-right:10px;margin-left:10px;">
+                  <!--<div class="col" style="z-index:-1;"><img class="img-fluid" src="assets/img/footerbg.png"></div>-->
+              </div>
+            <div class="row" style="z-index:998;margin-bottom:-30px;">
+            
+                  <!-- TradingView Widget BEGIN -->
+            
+            <!-- TradingView Widget END -->
+            </div>
+            <section>
+            <script src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js">{
+            "width": "100%",
+            "height": "500",
+            "defaultColumn": "overview",
+            "screener_type": "crypto_mkt",
+            "displayCurrency": "USD",
+            "locale": "en"
+            }
+            </script>
+            </section>
+            </div>
+            <p><a href="https://www.tradingview.com/markets/stocks-usa/market-movers-large-cap/" target="_blank" style="text-align:center;display:block;font-size:var(--sm-font);">show all markets</a></p>
+   </section>
+
+    
+
+    <section class="section-6">
+        <div class="flex">
+         <div class="image left">
+            <div class="img-container">
+                <img src="./images/android-left-img.png" alt="phone icon"/>
+            </div>
+         </div>
+            <div class="text right">
+                <h4>get trading</h4>
+                <div class="text-body">
+                    <dl> 
+                        <div class="aside-items">
+                        <div class="img-container">
+                            <img src="./images/aside1-icon.svg">
+                            <span class="draw-dotted-line"></span>
+                        </div>
+                        <div>
+                        <dt>Trade with crypto and digital assets in realtime</dt>
+                        <dd>Our Trading Panel is optimised to provide real market<br>
+                         and data allows trade with digital assets and <br>
+                          cryptocurrencies with ease and profits
+                        </dd>
+                        </div>
+                        </div>
+                        <div class="aside-items">
+                        <div class="img-container">
+                        <img src="./images/aside2-icon.svg">
+                        <span class="draw-dotted-line"></span>
+                        </div>
+                        <div>
+                        <dt>Buy and Sell Cryptocurrency assets with HoluEX</dt>
+                        <dd>
+                            Buy and Sell USDT, BNB, DOGE, ADA <br>
+                            and other currencies comfortable with fair <br>
+                            market prices
+                        </dd>
+                       </div>
+                       </div>
+                       <div class="aside-items">
+                       <div class="img-container">
+                        <img src="./images/aside2-icon.svg">
+                        <span class="draw-dotted-line"></span>
+                       </div>
+                        <div>
+                        <dt>Trade and Exchange 24/7</dt>
+                        <dd>Exchange anything and anywhere with our desktop <br>
+                        and mobile friendly user interface.
+                        </dd>
+                       </div>
+                       </div>
+                       </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- index page division line -->
+<div class="division-line"></div>
+
+
+
+
+
+  <section class="section-7">
+   <div class="customer-enquiries flex">
+    <div class="container flex-basis">
+        <div class="avatar-icon left">
+            <img src="./images/avater-icon-1.svg">
+        </div>
+        <div class="text-description">
+            <h4>24/7 chat support</h4>
+            <p>Get 24/7 chat support with our friendly <br>
+            customer services agents at your service
+            </p>
+            <span class="learn-more"><a href="./login.html">chat now</a></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="container flex-basis">
+        <div class="avatar-icon left">
+            <img src="./images/avater-icon-2.svg">
+        </div>
+        <div class="text-description">
+            <h4>FAQ</h4>
+            <p>View FAQs for detailed instruction on<br>
+             specific features.
+            </p>
+            <span class="learn-more"><a href="./login.html">learn more</a></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="container flex-basis">
+        <div class="avatar-icon left">
+            <img src="./images/avater-icon-3.svg">
+        </div>
+        <div class="text-description">
+            <h4>Blog</h4>
+            <p>steady update with the latest stories and <br>
+            commentary
+            </p>
+            <span class="learn-more"><a href="./login.html">learn more</a></span>
+            <span></span>
+        </div>
+    </div>
+    </div>
+  </section>
+    </main>
+    
+
+
+
+<!-- index page division line -->
+   <div class="division-line"></div>
+    <!-- footer markup -->
+    <footer class="site-footer index-footer">
+         <!--The nav element was used in the footer because it includes all the links on the site
+            and could be the major navigation-->
+            <nav>
+                <ul>
+                    <li><a href="aboutus.html">About Us</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="business-contact.html">Business Contacts</a></li>
+                            <li><a href="community.html">Community</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Products</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="#">Exchange</a></li>
+                            <li><a href="#">Academy</a></li>
+                            <li><a href="#">Charity</a></li>
+                            <li><a href="#">Card</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="service.html">Service</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">Desktop Applicaton</a></li>
+                            <li><a href="#">Buy Crypto</a></li>
+                            <li><a href="#">Institutional and VIP Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="support.html">Support</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="#">Give Us Feedback</a></li>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Submit a request</a></li>
+                            <li><a href="#">APIs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="learn.html">Learn</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="#">Learn and Earn</a></li>
+                            <li><a href="#">Browse Crypto Prices</a></li>
+                            <li><a href="#">Buy BNB</a></li>
+                            <li><a href="#">Buy BUSD</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="community.html">Community</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul class="social-icons">
+                            <!-- social icons first row -->
+                            <div>
+                            <li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="15" height="15" fill="#A7A7A7"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/></svg></span></a></li>
+                            <li><a href="#"><span class="fa fa-telegram"></span></a></li>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            </div>
+                            <!-- Social icons second row -->
+                            <div>
+                            <li><a href="#"><span class="fa fa-reddit"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            <li><a href="#"><span><svg viewBox="0 0 76.52 77.67" width="15" height="15" xmlns="http://www.w3.org/2000/svg"><path d="m66.54 46.41a4.09 4.09 0 0 1 -4.17.28c-1.54-.87-2.37-2.91-2.37-5.69v-8.52c0-4.09-1.62-7-4.33-7.79-4.58-1.34-8 4.27-9.32 6.38l-8.1 13.11v-16c-.09-3.69-1.29-5.9-3.56-6.56-1.5-.44-3.75-.26-5.94 3.08l-18.11 29.07a32 32 0 0 1 -3.64-14.94c0-17.52 14-31.77 31.25-31.77s31.3 14.25 31.3 31.77v.09s0 .06 0 .09c.17 3.39-.93 6.09-3 7.4zm10-7.57v-.17c-.14-21.35-17.26-38.67-38.29-38.67s-38.25 17.42-38.25 38.83 17.16 38.84 38.25 38.84a37.81 37.81 0 0 0 26-10.36 3.56 3.56 0 0 0 .18-5 3.43 3.43 0 0 0 -4.86-.23 30.93 30.93 0 0 1 -44.57-2.08l16.3-26.2v12.09c0 5.81 2.25 7.69 4.14 8.24s4.78.17 7.81-4.75l9-14.57c.28-.47.55-.87.79-1.22v7.41c0 5.43 2.18 9.77 6 11.91a11 11 0 0 0 11.21-.45c4.2-2.73 6.49-7.67 6.25-13.62z" fill="#A7A7A7"/></svg></span></a></li>
+                            <li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="-3.6 -6 31.2 36"><path fill-rule="evenodd" fill="#A7A7A7" d="M15.68 0C22.4 0 24 1.6 24 8.32v7.36C24 22.4 22.4 24 15.68 24H8.32C1.6 24 0 22.4 0 15.68V8.32C0 1.6 1.6 0 8.32 0zM6.5 7.5H4.75c-.5 0-.6.24-.6.49 0 .47.59 2.77 2.76 5.81a6.85 6.85 0 005.34 3.2c1.11 0 1.25-.25 1.25-.68v-1.57c0-.5.11-.6.46-.6.35 0 .7.13 1.74 1.13 1.19 1.19 1.38 1.72 2.05 1.72h1.75c.5 0 .75-.25.61-.74a7.43 7.43 0 00-1.48-2.05c-.41-.49-1-1-1.21-1.26-.21-.26-.18-.49 0-.78a21.83 21.83 0 002.36-4c.11-.37 0-.64-.53-.64H17.5a.77.77 0 00-.76.49 14.67 14.67 0 01-2.15 3.58c-.41.41-.6.54-.82.54-.22 0-.27-.13-.27-.5v-3.5c0-.44-.13-.64-.5-.64h-2.75a.43.43 0 00-.45.4c0 .42.64.52.7 1.71v2.57c0 .57-.1.67-.32.67-.6 0-2-2.18-2.9-4.67C7.12 7.7 7 7.5 6.5 7.5z"/></svg></span></a></li>
+                            </div>
+                            <!-- social icons third row -->
+                            <div>
+                            <li><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="15" height="15" fill="#A7A7A7"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></span></a></li>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+<!--             <div class="copyright-info">
+             <div class="img-container">
+              <img src="./images/huloex-logo.png" alt="huloEx logo">
+             </div>
+             <div class="sponsor-list row">
+              <ul>
+                <li><img src="./images/bitgo.png" alt="bitgo image"></li>
+                <li><img src="./images/comodo-secure.png" alt="comodo-secure image"></li>
+                <li><img src="./images/hsbc-uk.png" alt="hsbc-uk image"></li>
+              </ul>
+             </div>
+             <div class="system-performace">
+              <p>Status: <span class="dot"></span> All systems normal <span class="time"> 39ms</span></p>
+             </div>
+             <div class="copyright-text">
+              <p> 
+                <small>Copyright &copy; 2021 HuloEx Global Ltd. All rights reserved</small><br>
+              <a href="mailto:support@huloEx.com"> support@huloEx </a> Support Center
+             </p>
+             </div>
+            </div> -->
+    </footer>
+   </div> 
+   <script src="./js/index.js"></script>
+</body>
+</html>
